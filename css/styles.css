@@ -39,7 +39,7 @@ list-style: none;
     color: var(--accent-color);
 }
 
-.address {
+.contacts {
         font-style:normal;
         font-weight: 400;
         font-size: 16px;
@@ -47,10 +47,7 @@ list-style: none;
         letter-spacing: 0.02em;
         color: var(--primary-text-color);
 }
-.address:hover,
-.address:focus {
-    color: var(--accent-color);
-}
+
 .contacts:hover,
 .contacts:focus {
     color: var(--accent-color);
