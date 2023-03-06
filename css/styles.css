@@ -19,16 +19,19 @@ list-style: none;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.5;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
 }
-.header-logo{
+.header-logo {
     color:var(--secondary-color);
 }
 .menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--secondary-color);
 }
 .menu-link:hover,
@@ -36,22 +39,22 @@ list-style: none;
     color: var(--accent-color);
 }
 
-.address {
-        font-style: normal;
+.contacts {
+        font-style:normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         color: var(--primary-text-color);
 }
-.address:hover,
-.address:focus {
+.contacts:hover,
+.contacts:focus {
     color: var(--accent-color);
 }
 
 /*=============== body============ */
 .body {
        font-family: "Roboto", sans-serif;
-        color: var(--secondary-color);
+        color: var(--primary-text-color);
 }
 .hero-section {
     background-color: var(--secondary-color);
@@ -61,54 +64,90 @@ list-style: none;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.04em;
         cursor: pointer;
         background-color: #4D5AE5;
         color: #FFFFFF;
 }
 .modal-btn:hover,
 .modal-btn:focus {
-background-color:#404BBF; ;
+background-color:#404BBF; 
 }
 .filter-btn-activ {
+        font-family: inherit;
         font-weight:500;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.04em;
         cursor: pointer;
         color: #4D5AE5;
 }
-.main-title{
+.main-title {
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
         color: #FFFFFF
 }
-.section-title{
+.section-title {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
-        color: #2E2F42;
+        letter-spacing: 0.02em;
+        color:var(--secondary-color);
 }
-.card-title{
+.rectangle-title, 
+.team-title
+ {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secondary-color);
+}
+.feature-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
+        text-align: center;
+        text-transform: capitalize;
+        letter-spacing: 0.02em;
         color: var(--secondary-color);
 }
-.feature{
+.feature,
+.team-text {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color);
+}
+.card-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color:var(--secondary-color);
+}
+.card-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
         color: var(--primary-text-color);
 }
 
 /*================= body ==============*/
 /* =======footer===== */
 .footer-color {
-    background-color: #2E2F42;
+    background-color:var(--secondary-color);
 }
-.fotter-text{
+.fotter-text {
     color: #E7E9FC;;
 }
-.footter-logo{
+.footter-logo {
     color: #F4F4FD;
 }
